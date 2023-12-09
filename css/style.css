@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+}
+
+#canvas {
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+#title {
+    display: block;
+    margin-top: 34px;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    background-color: azure;
+    padding: 20px 60px;
+    color:darkslategray;
+}
+
+#control_bottons {
+    margin: 10px;
+}
+
+#status {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn{
+    padding: 1rem 2rem;
+    border-color: transparent;
+    background-color: brown;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-size : 1rem;
+}
+
+.cities{
+    font-size : 1.2rem;
+    font-weight: 600;
+    color:brown
+}
+
+
